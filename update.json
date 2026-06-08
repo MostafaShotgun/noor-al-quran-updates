@@ -1,13 +1,15 @@
 {
   "app": {
     "name": "Noor Al-Quran",
-    "package": "com.aistudio.nooralquran"
+    "package": "com.aistudio.nooralquran",
   },
 
   "latest_version": {
     "code": 4,
     "name": "1.0.0.4"
   },
+
+  "linkeraw": "https://raw.githubusercontent.com/MostafaShotgun/noor-al-quran-updates/main/update.json",
 
   "minimum_required_version": {
     "code": 3,
