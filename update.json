@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Noor Al-Quran",
-    "package": "com.aistudio.nooralquran",
+    "package": "com.aistudio.nooralquran"
   },
 
   "latest_version": {
