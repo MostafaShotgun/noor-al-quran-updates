@@ -1,0 +1,62 @@
+{
+  "app": {
+    "name": "Noor Al-Quran",
+    "package": "com.aistudio.nooralquran"
+  },
+
+  "latest_version": {
+    "code": 4,
+    "name": "1.0.0.4"
+  },
+
+  "minimum_required_version": {
+    "code": 3,
+    "name": "1.0.0.3"
+  },
+
+  "update_url": "https://your-domain.com/download",
+
+  "release_date": "2026-06-08",
+
+  "force_update_message_ar": "يجب تحديث التطبيق للاستمرار.",
+  "force_update_message_en": "You must update the application to continue.",
+
+  "optional_update_message_ar": "يتوفر إصدار جديد يحتوي على تحسينات وإصلاحات.",
+  "optional_update_message_en": "A newer version is available.",
+
+  "versions": [
+    {
+      "code": 4,
+      "name": "1.0.0.4",
+      "type": "optional",
+      "title_ar": "تحسينات عامة",
+      "title_en": "General Improvements",
+      "changes_ar": [
+        "تحسين الويدجت",
+        "تحسين الأداء",
+        "إصلاحات متنوعة"
+      ],
+      "changes_en": [
+        "Widget improvements",
+        "Performance improvements",
+        "Various fixes"
+      ]
+    },
+
+    {
+      "code": 3,
+      "name": "1.0.0.3",
+      "type": "mandatory",
+      "title_ar": "تحديث أمني مهم",
+      "title_en": "Important Security Update",
+      "changes_ar": [
+        "إصلاح مشاكل التشغيل",
+        "تحسين استقرار التطبيق"
+      ],
+      "changes_en": [
+        "Playback fixes",
+        "Stability improvements"
+      ]
+    }
+  ]
+}
