@@ -65,7 +65,8 @@
     "message_ar": "مرحباً بك في نور القرآن",
     "message_en": "Welcome to Noor Al-Quran",
     "show_version": true,
-    "show_changelog_button": true
+    "show_changelog_button": true,
+    "duration_seconds": 3
   },
   "versioning": {
     "current": {
