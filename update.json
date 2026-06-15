@@ -17,7 +17,6 @@
     "message_ar": "",
     "message_en": ""
   },
-{
   "Radio": {
     "enabled": true,
     "maintenance": false,
@@ -383,8 +382,7 @@
         "url": "https://serverkw.quran-uni.com:8028/;*.mp3"
       }
     ]
-  }
-},
+  },
 "announcements": {
   "enabled": true,
 
