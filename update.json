@@ -17,56 +17,373 @@
     "message_ar": "",
     "message_en": ""
   },
-"Radio": {
+{
+  "Radio": {
     "enabled": true,
     "maintenance": false,
     "stations": [
-        {
-            "ar": "إذاعة القرآن الكريم من القاهرة 🇪🇬",
-            "en": "Quran Radio Cairo 🇪🇬",
-            "url": "https://stream.radiojar.com/8s5u5tpdtwzuv"
-        },
-        {
-            "ar": "إذاعة القرآن الكريم من السعودية (مكة المكرمة) 🇸🇦",
-            "en": "Quran Radio Makkah 🇸🇦",
-            "url": "https://stream.radiojar.com/4wqre23fytzuv"
-        },
-        {
-            "ar": "إذاعة الشيخ عبد الباسط عبد الصمد - برواية حفص 🕌",
-            "en": "Abdul Basit Abdul Samad Radio (Hafs) 🕌",
-            "url": "https://serverkw.quran-uni.com:8004/;*.mp3"
-        },
-        {
-            "ar": "إذاعة الشيخ محمود خليل الحصري - برواية حفص 🕌",
-            "en": "Mahmoud Khalil Al-Husary Radio (Hafs) 🕌",
-            "url": "https://serverkw.quran-uni.com:8018/;*.mp3"
-        },
-        {
-            "ar": "إذاعة الشيخ محمود علي البنا - برواية حفص 🕌",
-            "en": "Mahmoud Ali Al-Banna Radio (Hafs) 🕌",
-            "url": "https://serverkw.quran-uni.com:8024/;*.mp3"
-        },
-        {
-            "ar": "إذاعة الشيخ مشاري العفاسي - برواية حفص 🕌",
-            "en": "Mishary Alafasy Radio (Hafs) 🕌",
-            "url": "https://serverkw.quran-uni.com:8002/;*.mp3"
-        },
-        {
-            "ar": "إذاعة الشيخ سعد الغامدي - برواية حفص 🕌",
-            "en": "Saad Al-Ghamdi Radio (Hafs) 🕌",
-            "url": "https://serverkw.quran-uni.com:8026/;*.mp3"
-        },
-        {
-            "ar": "إذاعة الشيخ ماهر المعيقلي 🕌",
-            "en": "Maher Al-Muaiqly Radio 🕌",
-            "url": "https://serverkw.quran-uni.com:8014/;*.mp3"
-        },
-        {
-            "ar": "إذاعة الرقية الشرعية من القرآن الكريم 📿",
-            "en": "Quran Ruqyah Radio 📿",
-            "url": "https://serverkw.quran-uni.com:8028/;*.mp3"
-        }
+      {
+        "ar": "تلاوة الشيخ إبراهيم الأخضر",
+        "en": "Ibrahim Al-Akhdar Recitation",
+        "url": "https://serverkw.quran-uni.com:8192/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ أبو بكر الشاطري",
+        "en": "Abu Bakr Al-Shatri Recitation",
+        "url": "https://serverkw.quran-uni.com:8162/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ أحمد العجمي",
+        "en": "Ahmed Al-Ajmi Recitation",
+        "url": "https://serverkw.quran-uni.com:8184/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ خالد القحطاني",
+        "en": "Khalid Al-Qahtani Recitation",
+        "url": "https://serverkw.quran-uni.com:8070/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ خليفة الطنيجي",
+        "en": "Khalifa Al-Tunaiji Recitation",
+        "url": "https://serverkw.quran-uni.com:8190/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ سعد الغامدي",
+        "en": "Saad Al-Ghamdi Recitation",
+        "url": "https://serverkw.quran-uni.com:8026/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ سعود الشريم",
+        "en": "Saud Al-Shuraim Recitation",
+        "url": "https://serverkw.quran-uni.com:8194/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد الباسط عبد الصمد",
+        "en": "Abdul Basit Abdus Samad Recitation",
+        "url": "https://serverkw.quran-uni.com:8004/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد الرحمن السديس",
+        "en": "Abdul Rahman Al-Sudais Recitation",
+        "url": "https://serverkw.quran-uni.com:8196/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد العزيز الأحمد",
+        "en": "Abdul Aziz Al-Ahmad Recitation",
+        "url": "https://serverkw.quran-uni.com:8142/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد الله بصفر",
+        "en": "Abdullah Basfar Recitation",
+        "url": "https://serverkw.quran-uni.com:8182/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد الله خياط",
+        "en": "Abdullah Khayyat Recitation",
+        "url": "https://serverkw.quran-uni.com:8152/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد الله علي جابر",
+        "en": "Abdullah Ali Jabir Recitation",
+        "url": "https://serverkw.quran-uni.com:8150/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد الله عواد الجهني",
+        "en": "Abdullah Awad Al-Juhani Recitation",
+        "url": "https://serverkw.quran-uni.com:8066/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ عبد المحسن القاسم",
+        "en": "Abdul Mohsin Al-Qasim Recitation",
+        "url": "https://serverkw.quran-uni.com:8188/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ علي الحذيفي",
+        "en": "Ali Al-Hudhaifi Recitation",
+        "url": "https://serverkw.quran-uni.com:8186/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ فارس عباد",
+        "en": "Fares Abbad Recitation",
+        "url": "https://serverkw.quran-uni.com:8068/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ ماهر المعيقلي",
+        "en": "Maher Al-Muaiqly Recitation",
+        "url": "https://serverkw.quran-uni.com:8014/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد أيوب",
+        "en": "Muhammad Ayyub Recitation",
+        "url": "https://serverkw.quran-uni.com:8158/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد جبريل",
+        "en": "Muhammad Jibril Recitation",
+        "url": "https://serverkw.quran-uni.com:8160/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد اللحيدان",
+        "en": "Muhammad Al-Luhaidan Recitation",
+        "url": "https://serverkw.quran-uni.com:8156/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد صديق المنشاوي",
+        "en": "Muhammad Siddiq Al-Minshawi Recitation",
+        "url": "https://serverkw.quran-uni.com:8074/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد صديق المنشاوي - مجود",
+        "en": "Muhammad Siddiq Al-Minshawi - Mujawwad",
+        "url": "https://serverkw.quran-uni.com:8230/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد صديق المنشاوي - المعلم",
+        "en": "Muhammad Siddiq Al-Minshawi - Al-Muallim",
+        "url": "https://serverkw.quran-uni.com:8242/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمد الطبلاوي",
+        "en": "Muhammad Al-Tablawi Recitation",
+        "url": "https://serverkw.quran-uni.com:8078/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمود خليل الحصري",
+        "en": "Mahmoud Khalil Al-Husari Recitation",
+        "url": "https://serverkw.quran-uni.com:8018/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ محمود علي البنا",
+        "en": "Mahmoud Ali Al-Banna Recitation",
+        "url": "https://serverkw.quran-uni.com:8024/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ مشاري العفاسي",
+        "en": "Mishary Al-Afasy Recitation",
+        "url": "https://serverkw.quran-uni.com:8002/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ مصطفى إسماعيل",
+        "en": "Mustafa Ismail Recitation",
+        "url": "https://serverkw.quran-uni.com:8224/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ ناصر القطامي",
+        "en": "Nasser Al-Qatami Recitation",
+        "url": "https://serverkw.quran-uni.com:8166/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ هاني الرفاعي",
+        "en": "Hani Al-Rifai Recitation",
+        "url": "https://serverkw.quran-uni.com:8154/;*.mp3"
+      },
+      {
+        "ar": "تلاوة الشيخ ياسر الدوسري",
+        "en": "Yasser Al-Dosari Recitation",
+        "url": "https://serverkw.quran-uni.com:8168/;*.mp3"
+      },
+      {
+        "ar": "إذاعة الشيخ عبد الباسط عبد الصمد برواية ورش",
+        "en": "Abdul Basit Warsh Radio",
+        "url": "https://serverkw.quran-uni.com:8210/;*.mp3"
+      },
+      {
+        "ar": "إذاعة الشيخ محمود خليل الحصري برواية قالون",
+        "en": "Al-Husari Qalun Radio",
+        "url": "https://serverkw.quran-uni.com:8206/;*.mp3"
+      },
+      {
+        "ar": "إذاعة القارئ إبراهيم الدوسري برواية ورش",
+        "en": "Ibrahim Al-Dosari Warsh Radio",
+        "url": "https://serverkw.quran-uni.com:8208/;*.mp3"
+      },
+      {
+        "ar": "إذاعة القارئ أحمد خضر الطرابلسي برواية قالون",
+        "en": "Ahmed Khader Qalun Radio",
+        "url": "https://serverkw.quran-uni.com:8198/;*.mp3"
+      },
+      {
+        "ar": "إذاعة القارئ الدوكالي محمد العالم برواية قالون",
+        "en": "Al-Doukali Qalun Radio",
+        "url": "https://serverkw.quran-uni.com:8200/;*.mp3"
+      },
+      {
+        "ar": "إذاعة القارئ علي الحذيفي برواية قالون",
+        "en": "Ali Al-Hudhaifi Qalun Radio",
+        "url": "https://serverkw.quran-uni.com:8204/;*.mp3"
+      },
+      {
+        "ar": "إذاعة القارئ عمر القزابري برواية ورش",
+        "en": "Omar Al-Qazabri Warsh Radio",
+        "url": "https://serverkw.quran-uni.com:8212/;*.mp3"
+      },
+      {
+        "ar": "إذاعة القارئ محمد الطيب حمدان برواية ورش",
+        "en": "Muhammad Al-Tayeb Warsh Radio",
+        "url": "https://serverkw.quran-uni.com:8214/;*.mp3"
+      },
+      {
+        "ar": "رواية ابن ذكوان عن ابن عامر",
+        "en": "Ibn Thakwan from Ibn Amir Rewayah",
+        "url": "https://serverkw.quran-uni.com:8174/;*.mp3"
+      },
+      {
+        "ar": "رواية البزي عن ابن كثير",
+        "en": "Al-Bazzi from Ibn Kathir Rewayah",
+        "url": "https://serverkw.quran-uni.com:8064/;*.mp3"
+      },
+      {
+        "ar": "رواية الدوري عن أبي عمرو",
+        "en": "Al-Duri from Abi Amr Rewayah",
+        "url": "https://serverkw.quran-uni.com:8050/;*.mp3"
+      },
+      {
+        "ar": "رواية روح عن يعقوب الحضرمي",
+        "en": "Ruwais from Yaqub Al-Hadrami Rewayah",
+        "url": "https://serverkw.quran-uni.com:8056/;*.mp3"
+      },
+      {
+        "ar": "رواية شعبة عن عاصم",
+        "en": "Shubah from Asim Rewayah",
+        "url": "https://serverkw.quran-uni.com:8172/;*.mp3"
+      },
+      {
+        "ar": "رواية ورش عن نافع",
+        "en": "Warsh from Nafi Rewayah",
+        "url": "https://serverkw.quran-uni.com:8164/;*.mp3"
+      },
+      {
+        "ar": "تفسير السعدي",
+        "en": "Al-Saadi Tafsir",
+        "url": "https://serverkw.quran-uni.com:8012/;*.mp3"
+      },
+      {
+        "ar": "تفسير الشعراوي",
+        "en": "Al-Shaarawi Tafsir",
+        "url": "https://serverkw.quran-uni.com:8202/;*.mp3"
+      },
+      {
+        "ar": "تفسير الميسر - محمد أيوب",
+        "en": "Al-Muyassar Tafsir - Muhammad Ayyub",
+        "url": "https://serverkw.quran-uni.com:8086/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري 1 - 30",
+        "en": "Sahih Al-Bukhari 1 - 30",
+        "url": "https://serverkw.quran-uni.com:8266/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري 31 - 58",
+        "en": "Sahih Al-Bukhari 31 - 58",
+        "url": "https://serverkw.quran-uni.com:8268/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري 59 - 62",
+        "en": "Sahih Al-Bukhari 59 - 62",
+        "url": "https://serverkw.quran-uni.com:8270/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري 63 - 94",
+        "en": "Sahih Al-Bukhari 63 - 94",
+        "url": "https://serverkw.quran-uni.com:8272/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري بالإنجليزية 1 - 33",
+        "en": "Sahih Al-Bukhari English 1 - 33",
+        "url": "https://serverkw.quran-uni.com:8274/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري بالإنجليزية 34 - 62",
+        "en": "Sahih Al-Bukhari English 34 - 62",
+        "url": "https://serverkw.quran-uni.com:8276/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري بالإنجليزية 63 - 70",
+        "en": "Sahih Al-Bukhari English 63 - 70",
+        "url": "https://serverkw.quran-uni.com:8278/;*.mp3"
+      },
+      {
+        "ar": "صحيح البخاري بالإنجليزية 71 - 97",
+        "en": "Sahih Al-Bukhari English 71 - 97",
+        "url": "https://serverkw.quran-uni.com:8280/;*.mp3"
+      },
+      {
+        "ar": "صحيح مسلم 1 - 15",
+        "en": "Sahih Muslim 1 - 15",
+        "url": "https://serverkw.quran-uni.com:8286/;*.mp3"
+      },
+      {
+        "ar": "صحيح مسلم 16 - 34",
+        "en": "Sahih Muslim 16 - 34",
+        "url": "https://serverkw.quran-uni.com:8288/;*.mp3"
+      },
+      {
+        "ar": "صحيح مسلم 35 - 55",
+        "en": "Sahih Muslim 35 - 55",
+        "url": "https://serverkw.quran-uni.com:8290/;*.mp3"
+      },
+      {
+        "ar": "صحيح مسلم بالإنجليزية 1 - 15",
+        "en": "Sahih Muslim English 1 - 15",
+        "url": "https://serverkw.quran-uni.com:8282/;*.mp3"
+      },
+      {
+        "ar": "صحيح مسلم بالإنجليزية 16 - 54",
+        "en": "Sahih Muslim English 16 - 54",
+        "url": "https://serverkw.quran-uni.com:8284/;*.mp3"
+      },
+      {
+        "ar": "الأربعون النووية",
+        "en": "Al-Nawawi Forty Hadith",
+        "url": "https://serverkw.quran-uni.com:8302/;*.mp3"
+      },
+      {
+        "ar": "الأربعون النووية بالإنجليزية",
+        "en": "Al-Nawawi Forty Hadith English",
+        "url": "https://serverkw.quran-uni.com:8304/;*.mp3"
+      },
+      {
+        "ar": "رياض الصالحين",
+        "en": "Riyad Al-Salihin",
+        "url": "https://serverkw.quran-uni.com:8308/;*.mp3"
+      },
+      {
+        "ar": "رياض الصالحين بالإنجليزية",
+        "en": "Riyad Al-Salihin English",
+        "url": "https://serverkw.quran-uni.com:8306/;*.mp3"
+      },
+      {
+        "ar": "موطأ الإمام مالك",
+        "en": "Muwatta Imam Malik",
+        "url": "https://serverkw.quran-uni.com:8322/;*.mp3"
+      },
+      {
+        "ar": "موطأ الإمام مالك بالإنجليزية",
+        "en": "Muwatta Imam Malik English",
+        "url": "https://serverkw.quran-uni.com:7166/;*.mp3"
+      },
+      {
+        "ar": "فتاوى ابن عثيمين",
+        "en": "Ibn Uthaymeen Fatawa",
+        "url": "https://serverkw.quran-uni.com:8254/;*.mp3"
+      },
+      {
+        "ar": "إذاعة المصحف المعلم باللغة بالإنجليزية",
+        "en": "Al-Mus'haf Al-Muallim English Radio",
+        "url": "https://serverkw.quran-uni.com:8092/;*.mp3"
+      },
+      {
+        "ar": "ترجمة القرآن الكريم بالإنجليزية",
+        "en": "Quran English Translation Radio",
+        "url": "https://serverkw.quran-uni.com:8100/;*.mp3"
+      },
+      {
+        "ar": "الرقية الشرعية",
+        "en": "Quran Ruqyah Radio",
+        "url": "https://serverkw.quran-uni.com:8028/;*.mp3"
+      }
     ]
+  }
 },
 "announcements": {
   "enabled": true,
