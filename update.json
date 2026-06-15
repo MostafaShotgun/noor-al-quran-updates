@@ -17,6 +17,56 @@
     "message_ar": "",
     "message_en": ""
   },
+"Radio": {
+    "enabled": True,
+    "stations": [
+        {
+            "ar": "إذاعة القرآن الكريم من القاهرة 🇪🇬",
+            "en": "Quran Radio Cairo 🇪🇬",
+            "url": "https://stream.radiojar.com/8s5u5tpdtwzuv"
+        },
+        {
+            "ar": "إذاعة القرآن الكريم من السعودية (مكة المكرمة) 🇸🇦",
+            "en": "Quran Radio Makkah 🇸🇦",
+            "url": "https://stream.radiojar.com/4wqre23fytzuv"
+        },
+        {
+            "ar": "إذاعة الشيخ عبد الباسط عبد الصمد - برواية حفص 🕌",
+            "en": "Abdul Basit Abdul Samad Radio (Hafs) 🕌",
+            "url": "https://serverkw.quran-uni.com:8004/;*.mp3"
+        },
+        {
+            "ar": "إذاعة الشيخ محمود خليل الحصري - برواية حفص 🕌",
+            "en": "Mahmoud Khalil Al-Husary Radio (Hafs) 🕌",
+            "url": "https://serverkw.quran-uni.com:8018/;*.mp3"
+        },
+        {
+            "ar": "إذاعة الشيخ محمود علي البنا - برواية حفص 🕌",
+            "en": "Mahmoud Ali Al-Banna Radio (Hafs) 🕌",
+            "url": "https://serverkw.quran-uni.com:8024/;*.mp3"
+        },
+        {
+            "ar": "إذاعة الشيخ مشاري العفاسي - برواية حفص 🕌",
+            "en": "Mishary Alafasy Radio (Hafs) 🕌",
+            "url": "https://serverkw.quran-uni.com:8002/;*.mp3"
+        },
+        {
+            "ar": "إذاعة الشيخ سعد الغامدي - برواية حفص 🕌",
+            "en": "Saad Al-Ghamdi Radio (Hafs) 🕌",
+            "url": "https://serverkw.quran-uni.com:8026/;*.mp3"
+        },
+        {
+            "ar": "إذاعة الشيخ ماهر المعيقلي 🕌",
+            "en": "Maher Al-Muaiqly Radio 🕌",
+            "url": "https://serverkw.quran-uni.com:8014/;*.mp3"
+        },
+        {
+            "ar": "إذاعة الرقية الشرعية من القرآن الكريم 📿",
+            "en": "Quran Ruqyah Radio 📿",
+            "url": "https://serverkw.quran-uni.com:8028/;*.mp3"
+        }
+    ]
+},
 "announcements": {
   "enabled": true,
 
@@ -108,6 +158,11 @@
     "allow_changelog": true,
     "allow_maintenance_mode": true,
     "allow_announcements": true
+  },
+  "themes": {
+    "allow_seasonal_themes": true,
+    "default_theme": "original",
+    "available_themes": [ "original", "ramadan", "eid_elfitr", "eid_aladha" ]
   },
   "versions": [
     {
