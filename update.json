@@ -18,7 +18,7 @@
     "message_en": ""
   },
 "Radio": {
-    "enabled": True,
+    "enabled": true,
     "stations": [
         {
             "ar": "إذاعة القرآن الكريم من القاهرة 🇪🇬",
