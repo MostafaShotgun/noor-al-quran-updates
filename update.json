@@ -463,7 +463,7 @@
     },
     "download": {
       "type": "apk",
-      "primary_url": "https://example.com/app.apk",
+      "primary_url": "https://github.com/MostafaShotgun/noor-al-quran-updates/releases/download/v1.0.0.4/Noor.Al.Quran.apk",
       "backup_url": "https://example2.com/app.apk",
       "google_play_url": "",
       "apk_sha256": ""
