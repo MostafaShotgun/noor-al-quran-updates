@@ -7,7 +7,7 @@
     "developer": "MostafaShotgun"
   },
   "api": {
-    "source": "cloudflare-kv",
+    "source": "cloudflare-kv-github",
     "raw_backup": "https://raw.githubusercontent.com/MostafaShotgun/noor-al-quran-updates/main/update.json"
   },
   "maintenance": {
