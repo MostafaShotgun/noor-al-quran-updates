@@ -434,41 +434,6 @@
     "show_changelog_button": true,
     "duration_seconds": 3
   },
-  "versioning": {
-    "current": {
-      "code": 4,
-      "name": "1.0.0.4",
-      "type": "optional",
-      "release_date": "2026-06-08"
-    },
-    "minimum_required": {
-      "code": 3,
-      "name": "1.0.0.3",
-      "type": "mandatory"
-    },
-    "supported_range": {
-      "min_code": 3,
-      "max_code": 4
-    }
-  },
-  "update": {
-    "enabled": true,
-    "force_update_message": {
-      "ar": "يجب تحديث التطبيق للاستمرار.",
-      "en": "You must update the application to continue."
-    },
-    "optional_update_message": {
-      "ar": "يتوفر إصدار جديد يحتوي على تحسينات وإصلاحات.",
-      "en": "A newer version is available."
-    },
-    "download": {
-      "type": "apk",
-      "primary_url": "https://github.com/MostafaShotgun/noor-al-quran-updates/releases/download/v1.0.0.4/Noor.Al.Quran.apk",
-      "backup_url": "https://example2.com/app.apk",
-      "google_play_url": "",
-      "apk_sha256": ""
-    }
-  },
   "features": {
     "allow_optional_updates": true,
     "allow_changelog": true,
@@ -480,13 +445,68 @@
     "default_theme": "original",
     "available_themes": [ "original", "ramadan", "eid_elfitr", "eid_aladha" ]
   },
+  "update": {
+    "enabled": true,
+    "force_update_message": {
+      "ar": "يجب تحديث التطبيق للاستمرار.",
+      "en": "You must update the application to continue."
+    },
+  "optional_update_message": {
+      "ar": "يتوفر إصدار جديد يحتوي على تحسينات وإصلاحات.",
+      "en": "A newer version is available."
+    },
+  "download": {
+      "type": "apk",
+      "primary_url": "https://github.com/MostafaShotgun/noor-al-quran-updates/releases/download/v1.0.0.4/Noor.Al.Quran.apk",
+      "backup_url": "https://github.com/MostafaShotgun/noor-al-quran-updates/releases/download/v1.0.0.4/Noor.Al.Quran.apk",
+      "google_play_url": "",
+      "apk_sha256": ""
+    }
+  },
+  
+  "versioning": {
+    "current": {
+      "code": 2,
+      "name": "1.0.0.1",
+      "type": "mandatory",
+      "release_date": "2026-06-16"
+    },
+    "minimum_required": {
+      "code": 2,
+      "name": "1.0.0.1",
+      "type": "mandatory"
+    },
+    "supported_range": {
+      "min_code": 1,
+      "max_code": 2
+    }
+  },
   "versions": [
     {
-      "id": "v4",
-      "code": 4,
-      "name": "1.0.0.4",
+      "id": "v2",
+      "code": 2,
+      "name": "1.0.0.1",
+      "type": "mandatory",
+      "release_date": "2026-06-16",
+      "title_ar": "تحديث أمني مهم",
+      "title_en": "Important Security Update",
+      "changes_ar": [
+        "إصلاح مشاكل التشغيل",
+        "تحسين استقرار التطبيق",
+        "أضافة ادوات جديدة",
+      ],
+      "changes_en": [
+        "Fixed startup issues",
+        "Improved app stability",
+        "Added new tools"
+      ]
+    },
+    {
+      "id": "v1",
+      "code": 1,
+      "name": "1.0.0.0",
       "type": "optional",
-      "release_date": "2026-06-08",
+      "release_date": "2026-06-06",
       "title_ar": "تحسينات عامة",
       "title_en": "General Improvements",
       "changes_ar": [
@@ -498,23 +518,6 @@
         "Widget improvements",
         "Performance improvements",
         "Various fixes"
-      ]
-    },
-    {
-      "id": "v3",
-      "code": 3,
-      "name": "1.0.0.3",
-      "type": "mandatory",
-      "release_date": "2026-05-15",
-      "title_ar": "تحديث أمني مهم",
-      "title_en": "Important Security Update",
-      "changes_ar": [
-        "إصلاح مشاكل التشغيل",
-        "تحسين استقرار التطبيق"
-      ],
-      "changes_en": [
-        "Playback fixes",
-        "Stability improvements"
       ]
     }
   ]
