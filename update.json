@@ -1,6 +1,7 @@
 {
   "config_version": 1,
   "last_updated": "2026-06-08T12:00:00Z",
+  "apiYT": "AIza*****99999*9999",
   "app": {
     "name": "Noor Al-Quran",
     "package": "com.mostafashotgun.nooralquran",
@@ -459,7 +460,7 @@
         "title": "السيرة النبوية",
         "author": "الأستاذ أحمد عامر",
         "category": "seerah",
-        "content_type": "playlist",
+        "Reversed": true,
         "duration": "25 ساعة",
         "episodes": 26,
         "language": "ar",
