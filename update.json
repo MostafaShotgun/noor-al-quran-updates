@@ -395,7 +395,7 @@
     "description_ar": "مجموعة مختارة بعناية من المحتوى الإسلامي لترافقك في رحلتك.",
     "description_en": "A carefully curated collection of Islamic content to accompany you on your journey.",
       
-    "featured": "001",
+    "featured": "002",
   
     "categories": [
       {
@@ -447,6 +447,11 @@
         "id": "podcast",
         "title_ar": "بودكاست",
         "title_en": "Podcast"
+      },
+     {
+        "id": "taamulat",
+        "title_ar": "تأملات",
+        "title_en": "Reflections"
       }
     ],
   
@@ -458,11 +463,29 @@
         "url": "https://www.youtube.com/playlist?list=PLSSxr3Rf2_X2oKwiy4UhzIdj4ACzB6dee",
         "thumbnail": "",
         "title": "السيرة النبوية",
-        "author": "الأستاذ أحمد عامر",
+        "author": "أحمد عامر",
         "category": "seerah",
         "Reversed": true,
         "duration": "25 ساعة",
         "episodes": 26,
+        "language": "ar",
+        "description": "سلسلة شاملة وممتعة تتناول السيرة النبوية العطرة بأسلوب قصصي تربوي متميز، يربط مواقف حياة النبي ﷺ بالواقع العملي والتربية الإيمانية المعاصرة.",
+        "recommendation": "ننصح به بشدة لكل من يبحث عن فهم السيرة النبوية بأسلوب سهل، مؤثر، ومناسب لجميع أفراد الأسرة.",
+        "benefits": [
+          "التعرف على شخصية النبي ﷺ وأخلاقه ومواقفه الإنسانية",
+          "استخراج الدروس التربوية والعملية لتطبيقها في الحياة اليومية",
+          "زيادة محبة النبي ﷺ وصحابته الكرام ونصرة سنته"
+        ],
+        "target": "الجميع",
+        "featured": true
+      },
+      {
+        "id": "002",
+        "date": "11_7_2026",
+        "show": true,
+        "url": "https://www.youtube.com/watch?v=nXyyaUk68ZY&pp=ygUG2K_ZitmG",
+        "author": "أمجد سمير",
+        "category": "taamulat",
         "language": "ar",
         "description": "سلسلة شاملة وممتعة تتناول السيرة النبوية العطرة بأسلوب قصصي تربوي متميز، يربط مواقف حياة النبي ﷺ بالواقع العملي والتربية الإيمانية المعاصرة.",
         "recommendation": "ننصح به بشدة لكل من يبحث عن فهم السيرة النبوية بأسلوب سهل، مؤثر، ومناسب لجميع أفراد الأسرة.",
