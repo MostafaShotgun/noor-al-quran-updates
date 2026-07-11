@@ -383,6 +383,98 @@
       }
     ]
   },
+
+  "companion": {
+    "enabled": true,
+    "maintenance": false,
+  
+    "title_ar": "رفيق الطريق",
+    "title_en": "Road Companion",
+  
+    "description_ar": "مجموعة مختارة بعناية من المحتوى الإسلامي لترافقك في رحلتك.",
+    "description_en": "A carefully curated collection of Islamic content to accompany you on your journey.",
+      
+    "featured": "001",
+  
+    "categories": [
+      {
+        "id": "all",
+        "title_ar": "الكل",
+        "title_en": "All"
+      },
+      {
+        "id": "quran",
+        "title_ar": "القرآن",
+        "title_en": "Quran"
+      },
+      {
+        "id": "tafsir",
+        "title_ar": "التفسير",
+        "title_en": "Tafsir"
+      },
+      {
+        "id": "hadith",
+        "title_ar": "السنة",
+        "title_en": "Hadith"
+      },
+      {
+        "id": "seerah",
+        "title_ar": "السيرة النبوية",
+        "title_en": "Seerah"
+      },
+      {
+        "id": "aqeedah",
+        "title_ar": "العقيدة",
+        "title_en": "Aqeedah"
+      },
+      {
+        "id": "fiqh",
+        "title_ar": "الفقه",
+        "title_en": "Fiqh"
+      },
+      {
+        "id": "tazkiyah",
+        "title_ar": "تزكية النفس",
+        "title_en": "Tazkiyah"
+      },
+      {
+        "id": "akhlaq",
+        "title_ar": "الأخلاق",
+        "title_en": "Manners"
+      },
+      {
+        "id": "podcast",
+        "title_ar": "بودكاست",
+        "title_en": "Podcast"
+      }
+    ],
+  
+    "items": [
+      {
+        "id": "001",
+        "date": "11_7_2026",
+        "show": true,
+        "url": "",
+        "thumbnail": "",
+        "title": "شرح كتاب التوحيد",
+        "author": "الشيخ صالح الفوزان",
+        "category": "aqeedah",
+        "content_type": "playlist",
+        "duration": "32 ساعة",
+        "episodes": 78,
+        "language": "ar",
+        "description": "شرح مبسط لكتاب التوحيد.",
+        "recommendation": "ننصح به لأنه من أفضل الشروح العلمية للمبتدئين.",
+        "benefits": [
+          "فهم العقيدة الصحيحة",
+          "معرفة أنواع التوحيد",
+          "تقوية الإيمان"
+        ],
+        "target": "الجميع",
+        "featured": true
+      }
+    ]
+  },
 "announcements": {
   "enabled": true,
 
