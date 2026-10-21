@@ -1,6 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "appConfig": {
+    "splashDurationSeconds": 3,
     "activeSemesters": {
       "FIRST": 1,
       "SECOND": 1,
@@ -10,7 +11,39 @@
     "supportPhone": "01098765432",
     "supportWhatsapp": "https://wa.me/201098765432",
     "telegramChannel": "https://t.me/mustafa_law_academy",
-    "announcementText": "مرحباً بكم في منصة مصطفى للدراسات القانونية - تم تحديث بنك المحاضرات والامتحانات"
+    "announcementText": "مرحباً بكم في منصة مصطفى للدراسات القانونية - تم تحديث المحاضرات والامتحانات والمرفقات بنجاح",
+    "appFeatures": [
+      {
+        "id": "feat_video",
+        "title": "مشغل فيديو متقدم وتحكم بالسرعة",
+        "description": "مشغل مدمج وسريع يدعم سرعات تشغيل متعددة من 0.25x حتى 2.0x وشاشة كاملة",
+        "iconName": "video"
+      },
+      {
+        "id": "feat_attachments",
+        "title": "مرفقات PDF وخرائط ذهنية مصورة",
+        "description": "تصفح وتحميل المذكرات التلخيصية والخرائط الذهنية المصاحبة لكل محاضرة",
+        "iconName": "document"
+      },
+      {
+        "id": "feat_bubble_sheet",
+        "title": "نظام بابل شيت متطور",
+        "description": "اختبارات تفاعلية محددة بوقت مع تسليم لمرة واحدة وشرح وافٍ لكل سؤال",
+        "iconName": "quiz"
+      },
+      {
+        "id": "feat_eye_comfort",
+        "title": "ثيم ليلي ونهاري مريح للعين",
+        "description": "تصميم هادئ ومريح للعينين يتيح ساعات مذاكرة طويلة دون إجهاد بصري",
+        "iconName": "dark_mode"
+      },
+      {
+        "id": "feat_cloud_sync",
+        "title": "تحكم مركزي ومزامنة سريعة",
+        "description": "إدارة فورية للمناهج والمحاضرات من خلال ملف البيانات المركزي على GitHub",
+        "iconName": "cloud"
+      }
+    ]
   },
   "subjects": [
     { "id": "y1_s1_sub1", "title": "التنظيم الدولي", "year": 1, "semester": 1, "lecturesCount": 8, "examsCount": 2, "colorHex": -15717819 },
@@ -22,36 +55,36 @@
     { "id": "y1_s2_sub3", "title": "الاقتصاد السياسى", "year": 1, "semester": 2, "lecturesCount": 8, "examsCount": 1, "colorHex": -12232092 },
     { "id": "y1_s2_sub4", "title": "لغة اجنبيه ومصطلحاتها القانونية", "year": 1, "semester": 2, "lecturesCount": 5, "examsCount": 1, "colorHex": -14142184 },
     { "id": "y1_s2_sub5", "title": "تمرينات عملية", "year": 1, "semester": 2, "lecturesCount": 6, "examsCount": 1, "colorHex": -8774616 },
-    { "id": "y2_s1_sub1", "title": "الشريعة الاسلامية (الزواج والطلاق)", "year": 2, "semester": 1, "lecturesCount": 9, "examsCount": 2, "colorHex": -15446729 },
-    { "id": "y2_s1_sub2", "title": "القانون المدنى (مصادر الالتزام)", "year": 2, "semester": 1, "lecturesCount": 15, "examsCount": 3, "colorHex": -16043679 },
-    { "id": "y2_s1_sub3", "title": "القانون الادارى", "year": 2, "semester": 1, "lecturesCount": 10, "examsCount": 2, "colorHex": -15117473 },
-    { "id": "y2_s1_sub4", "title": "الاقتصاد", "year": 2, "semester": 1, "lecturesCount": 7, "examsCount": 1, "colorHex": -12232092 },
-    { "id": "y2_s1_sub5", "title": "احوال شخصية لغير المسلمين", "year": 2, "semester": 1, "lecturesCount": 6, "examsCount": 1, "colorHex": -9614271 },
-    { "id": "y2_s2_sub1", "title": "القانون الدولى العام", "year": 2, "semester": 2, "lecturesCount": 9, "examsCount": 2, "colorHex": -15717819 },
-    { "id": "y2_s2_sub2", "title": "تاريخ القانون المصرى", "year": 2, "semester": 2, "lecturesCount": 7, "examsCount": 1, "colorHex": -9614271 },
-    { "id": "y2_s2_sub3", "title": "القانون الجنائى (القسم العام)", "year": 2, "semester": 2, "lecturesCount": 14, "examsCount": 3, "colorHex": -8774616 },
-    { "id": "y2_s2_sub4", "title": "القانون المدنى (احكام الالتزام والإثبات)", "year": 2, "semester": 2, "lecturesCount": 13, "examsCount": 3, "colorHex": -16043679 },
+    { "id": "y2_s1_sub1", "title": "الشريعة الاسلامية (الزواج والطلاق)", "year": 2, "semester": 1, "lecturesCount": 10, "examsCount": 2, "colorHex": -15717819 },
+    { "id": "y2_s1_sub2", "title": "القانون المدنى (مصادر الالتزام)", "year": 2, "semester": 1, "lecturesCount": 16, "examsCount": 4, "colorHex": -14796193 },
+    { "id": "y2_s1_sub3", "title": "القانون الادارى", "year": 2, "semester": 1, "lecturesCount": 12, "examsCount": 2, "colorHex": -15844771 },
+    { "id": "y2_s1_sub4", "title": "الاقتصاد", "year": 2, "semester": 1, "lecturesCount": 8, "examsCount": 1, "colorHex": -12232092 },
+    { "id": "y2_s1_sub5", "title": "احوال شخصية لغير المسلمين", "year": 2, "semester": 1, "lecturesCount": 6, "examsCount": 1, "colorHex": -10804429 },
+    { "id": "y2_s2_sub1", "title": "القانون الدولى العام", "year": 2, "semester": 2, "lecturesCount": 11, "examsCount": 2, "colorHex": -15717819 },
+    { "id": "y2_s2_sub2", "title": "تاريخ القانون المصرى", "year": 2, "semester": 2, "lecturesCount": 7, "examsCount": 1, "colorHex": -14796193 },
+    { "id": "y2_s2_sub3", "title": "القانون الجنائى (القسم العام)", "year": 2, "semester": 2, "lecturesCount": 14, "examsCount": 3, "colorHex": -15844771 },
+    { "id": "y2_s2_sub4", "title": "القانون المدنى (احكام الالتزام والإثبات)", "year": 2, "semester": 2, "lecturesCount": 13, "examsCount": 3, "colorHex": -10804429 },
     { "id": "y2_s2_sub5", "title": "لغة اجنبية ومصطلحاتها", "year": 2, "semester": 2, "lecturesCount": 6, "examsCount": 1, "colorHex": -14142184 },
-    { "id": "y2_s2_sub6", "title": "تطبيقات قضائية", "year": 2, "semester": 2, "lecturesCount": 8, "examsCount": 2, "colorHex": -14796193 },
-    { "id": "y3_s1_sub1", "title": "قانون العمل والتأمينات الإجتماعية", "year": 3, "semester": 1, "lecturesCount": 10, "examsCount": 2, "colorHex": -14804342 },
-    { "id": "y3_s1_sub2", "title": "قانون العقوبات (القسم الخاص)", "year": 3, "semester": 1, "lecturesCount": 14, "examsCount": 3, "colorHex": -8185789 },
-    { "id": "y3_s1_sub3", "title": "القانون التجاري", "year": 3, "semester": 1, "lecturesCount": 12, "examsCount": 2, "colorHex": -8041202 },
-    { "id": "y3_s1_sub4", "title": "العقود المدنية", "year": 3, "semester": 1, "lecturesCount": 13, "examsCount": 3, "colorHex": -15059363 },
+    { "id": "y2_s2_sub6", "title": "تطبيقات قضائية", "year": 2, "semester": 2, "lecturesCount": 8, "examsCount": 2, "colorHex": -8774616 },
+    { "id": "y3_s1_sub1", "title": "قانون العمل والتأمينات الإجتماعية", "year": 3, "semester": 1, "lecturesCount": 10, "examsCount": 2, "colorHex": -15717819 },
+    { "id": "y3_s1_sub2", "title": "قانون العقوبات (القسم الخاص)", "year": 3, "semester": 1, "lecturesCount": 14, "examsCount": 3, "colorHex": -14796193 },
+    { "id": "y3_s1_sub3", "title": "القانون التجاري", "year": 3, "semester": 1, "lecturesCount": 12, "examsCount": 2, "colorHex": -15844771 },
+    { "id": "y3_s1_sub4", "title": "العقود المدنية", "year": 3, "semester": 1, "lecturesCount": 13, "examsCount": 3, "colorHex": -10804429 },
     { "id": "y3_s1_sub5", "title": "المقرر القانوني بلغة أجنبية", "year": 3, "semester": 1, "lecturesCount": 6, "examsCount": 1, "colorHex": -14142184 },
-    { "id": "y3_s2_sub1", "title": "المالية العامة والتشريع الضريبي", "year": 3, "semester": 2, "lecturesCount": 9, "examsCount": 2, "colorHex": -12232092 },
-    { "id": "y3_s2_sub2", "title": "قانون المرافعات", "year": 3, "semester": 2, "lecturesCount": 15, "examsCount": 3, "colorHex": -15445203 },
-    { "id": "y3_s2_sub3", "title": "القضاء الإداري", "year": 3, "semester": 2, "lecturesCount": 11, "examsCount": 2, "colorHex": -16363845 },
-    { "id": "y3_s2_sub4", "title": "قانون الجنسية ومركز الأجانب", "year": 3, "semester": 2, "lecturesCount": 8, "examsCount": 1, "colorHex": -14798405 },
-    { "id": "y3_s2_sub5", "title": "الشريعة الإسلامية ( المواريث - الوصية - الوقف )", "year": 3, "semester": 2, "lecturesCount": 10, "examsCount": 2, "colorHex": -15446729 },
-    { "id": "y4_s1_sub1", "title": "القانون الدولى الخاص", "year": 4, "semester": 1, "lecturesCount": 11, "examsCount": 2, "colorHex": -14798405 },
-    { "id": "y4_s1_sub2", "title": "أصول الفقه", "year": 4, "semester": 1, "lecturesCount": 8, "examsCount": 2, "colorHex": -15446729 },
-    { "id": "y4_s1_sub3", "title": "التنفيذ الجبرى", "year": 4, "semester": 1, "lecturesCount": 10, "examsCount": 2, "colorHex": -15445203 },
-    { "id": "y4_s1_sub4", "title": "القضاء الدستورى", "year": 4, "semester": 1, "lecturesCount": 9, "examsCount": 2, "colorHex": -15249809 },
-    { "id": "y4_s1_sub5", "title": "القانون البحرى والجوى", "year": 4, "semester": 1, "lecturesCount": 8, "examsCount": 1, "colorHex": -15844771 },
-    { "id": "y4_s2_sub1", "title": "حقوق عينية أصلية", "year": 4, "semester": 2, "lecturesCount": 10, "examsCount": 2, "colorHex": -16043679 },
-    { "id": "y4_s2_sub2", "title": "الاجراءات الجنائية", "year": 4, "semester": 2, "lecturesCount": 16, "examsCount": 3, "colorHex": -9430411 },
-    { "id": "y4_s2_sub3", "title": "القانون التجارى", "year": 4, "semester": 2, "lecturesCount": 12, "examsCount": 2, "colorHex": -8041202 },
-    { "id": "y4_s2_sub4", "title": "التأمينات العينية والشخصية", "year": 4, "semester": 2, "lecturesCount": 9, "examsCount": 2, "colorHex": -14796193 }
+    { "id": "y3_s2_sub1", "title": "المالية العامة والتشريع الضريبي", "year": 3, "semester": 2, "lecturesCount": 9, "examsCount": 2, "colorHex": -15717819 },
+    { "id": "y3_s2_sub2", "title": "قانون المرافعات", "year": 3, "semester": 2, "lecturesCount": 15, "examsCount": 3, "colorHex": -14796193 },
+    { "id": "y3_s2_sub3", "title": "القضاء الإداري", "year": 3, "semester": 2, "lecturesCount": 11, "examsCount": 2, "colorHex": -15844771 },
+    { "id": "y3_s2_sub4", "title": "قانون الجنسية ومركز الأجانب", "year": 3, "semester": 2, "lecturesCount": 8, "examsCount": 1, "colorHex": -10804429 },
+    { "id": "y3_s2_sub5", "title": "الشريعة الإسلامية ( المواريث - الوصية - الوقف )", "year": 3, "semester": 2, "lecturesCount": 10, "examsCount": 2, "colorHex": -8774616 },
+    { "id": "y4_s1_sub1", "title": "القانون الدولى الخاص", "year": 4, "semester": 1, "lecturesCount": 11, "examsCount": 2, "colorHex": -15717819 },
+    { "id": "y4_s1_sub2", "title": "أصول الفقه", "year": 4, "semester": 1, "lecturesCount": 8, "examsCount": 2, "colorHex": -14796193 },
+    { "id": "y4_s1_sub3", "title": "التنفيذ الجبرى", "year": 4, "semester": 1, "lecturesCount": 10, "examsCount": 2, "colorHex": -15844771 },
+    { "id": "y4_s1_sub4", "title": "القضاء الدستورى", "year": 4, "semester": 1, "lecturesCount": 9, "examsCount": 2, "colorHex": -10804429 },
+    { "id": "y4_s1_sub5", "title": "القانون البحرى والجوى", "year": 4, "semester": 1, "lecturesCount": 8, "examsCount": 1, "colorHex": -14142184 },
+    { "id": "y4_s2_sub1", "title": "حقوق عينية أصلية", "year": 4, "semester": 2, "lecturesCount": 10, "examsCount": 2, "colorHex": -15717819 },
+    { "id": "y4_s2_sub2", "title": "الاجراءات الجنائية", "year": 4, "semester": 2, "lecturesCount": 16, "examsCount": 3, "colorHex": -14796193 },
+    { "id": "y4_s2_sub3", "title": "القانون التجارى", "year": 4, "semester": 2, "lecturesCount": 12, "examsCount": 2, "colorHex": -15844771 },
+    { "id": "y4_s2_sub4", "title": "التأمينات العينية والشخصية", "year": 4, "semester": 2, "lecturesCount": 9, "examsCount": 2, "colorHex": -10804429 }
   ],
   "lectures": [
     {
@@ -61,8 +94,25 @@
       "date": "11/10/2027",
       "durationMinutes": 48,
       "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
+      "thumbnailUrl": "https://img.youtube.com/vi/ST-HRXi5eXo/hqdefault.jpg",
       "isYoutube": true,
-      "description": "شرح تفصيلي لأركان جريمة القتل العمد والظروف المشددة (سبق الإصرار والترصد) واقتران القتل بجناية أو جنحة أخرى."
+      "description": "شرح تفصيلي لأركان جريمة القتل العمد والظروف المشددة (سبق الإصرار والترصد) واقتران القتل بجناية أو جنحة أخرى.",
+      "attachments": [
+        {
+          "id": "att_p1_1",
+          "title": "مذكرة أركان القتل العمد والظروف المشددة (PDF)",
+          "type": "pdf",
+          "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "description": "شرح تفصيلي لنصوص المواد 230 حتى 234 عقوبات وأحدث مبادئ محكمة النقض"
+        },
+        {
+          "id": "att_p1_2",
+          "title": "خريطة ذهنية للفرق بين سبق الإصرار والترصد (صورة)",
+          "type": "image",
+          "fileUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+          "description": "مخطط توضيحي للمقارنة والتمييز القانوني الدقيق بين الظرفين"
+        }
+      ]
     },
     {
       "id": "lec_penal_2",
@@ -71,18 +121,18 @@
       "date": "12/10/2027",
       "durationMinutes": 52,
       "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
+      "thumbnailUrl": "https://img.youtube.com/vi/ST-HRXi5eXo/hqdefault.jpg",
       "isYoutube": true,
-      "description": "جرائم الأموال: أركان جريمة السرقة البسيطة والسرقة بالإكراه، والفرق بين السرقة والنصب وخيانة الأمانة."
-    },
-    {
-      "id": "lec_penal_3",
-      "subjectId": "y3_s1_sub2",
-      "title": "محاضرة الثالثة عقوبات 15/10/2027",
-      "date": "15/10/2027",
-      "durationMinutes": 45,
-      "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
-      "isYoutube": true,
-      "description": "جرائم التزوير والرشوة واختلاس المال العام، مع تطبيقات عملية على أحكام محكمة النقض."
+      "description": "جرائم الأموال: أركان جريمة السرقة البسيطة والسرقة بالإكراه، والفرق بين السرقة والنصب وخيانة الأمانة.",
+      "attachments": [
+        {
+          "id": "att_p2_1",
+          "title": "مذكرة جرائم الأموال والبابل شيت (PDF)",
+          "type": "pdf",
+          "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "description": "أسئلة محلولة ونماذج قضايا عملية على جريمتي السرقة والنصب"
+        }
+      ]
     },
     {
       "id": "lec_civil_1",
@@ -91,18 +141,25 @@
       "date": "05/10/2027",
       "durationMinutes": 55,
       "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
+      "thumbnailUrl": "https://img.youtube.com/vi/ST-HRXi5eXo/hqdefault.jpg",
       "isYoutube": true,
-      "description": "التراضي في العقد: الإيجاب والقبول، والتعاقد بين غائبين، وعيوب الإرادة (الغلط، التدليس، الإكراه، الاستغلال)."
-    },
-    {
-      "id": "lec_civil_2",
-      "subjectId": "y2_s1_sub2",
-      "title": "محاضرة الثانية مدني المسؤولية التقصيرية 08/10/2027",
-      "date": "08/10/2027",
-      "durationMinutes": 60,
-      "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
-      "isYoutube": true,
-      "description": "المسؤولية عن الفعل الضار: أركان الخطأ والضرر وعلاقة السببية وفق نص المادة 163 من القانون المدني."
+      "description": "التراضي في العقد: الإيجاب والقبول، والتعاقد بين غائبين، وعيوب الإرادة (الغلط، التدليس، الإكراه، الاستغلال).",
+      "attachments": [
+        {
+          "id": "att_c1_1",
+          "title": "ملخص نظرية العقد وعيوب الرضا (PDF)",
+          "type": "pdf",
+          "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "description": "جدول مقارنة بين عيوب الإرادة وأثر كل عيب على صحة التصرف"
+        },
+        {
+          "id": "att_c1_2",
+          "title": "رسم شجري لمراحل إبرام العقد والتعاقد الإلكتروني (صورة)",
+          "type": "image",
+          "fileUrl": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
+          "description": "مخطط بصري مبسط لمطابقة الإيجاب والقبول"
+        }
+      ]
     },
     {
       "id": "lec_proc_1",
@@ -111,8 +168,18 @@
       "date": "10/10/2027",
       "durationMinutes": 62,
       "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
+      "thumbnailUrl": "https://img.youtube.com/vi/ST-HRXi5eXo/hqdefault.jpg",
       "isYoutube": true,
-      "description": "حالات التلبس بالجريمة وصلاحيات مأمور الضبط القضائي وضمانات التفتيش والقبض وحرمة المساكن."
+      "description": "حالات التلبس بالجريمة وصلاحيات مأمور الضبط القضائي وضمانات التفتيش والقبض وحرمة المساكن.",
+      "attachments": [
+        {
+          "id": "att_proc_1",
+          "title": "مذكرة حالات التلبس الحصرية وضمانات المتهم (PDF)",
+          "type": "pdf",
+          "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "description": "شرح أحكام المادة 30 إجراءات جنائية وبطلان القبض غير المشروع"
+        }
+      ]
     },
     {
       "id": "lec_intro_1",
@@ -121,8 +188,18 @@
       "date": "01/10/2027",
       "durationMinutes": 42,
       "videoUrl": "https://www.youtube.com/watch?v=ST-HRXi5eXo",
+      "thumbnailUrl": "https://img.youtube.com/vi/ST-HRXi5eXo/hqdefault.jpg",
       "isYoutube": true,
-      "description": "مفهوم القاعدة القانونية وخصائصها (عامة، مجردة، ملزمة، تنظم السلوك الخارجي)."
+      "description": "مفهوم القاعدة القانونية وخصائصها (عامة، مجردة، ملزمة، تنظم السلوك الخارجي).",
+      "attachments": [
+        {
+          "id": "att_intro_1",
+          "title": "مذكرة خصائص القاعدة القانونية والفرق بينها وبين القواعد الأخلاقية (PDF)",
+          "type": "pdf",
+          "fileUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "description": "تأسيس قانوني لطلاب الفرقة الأولى مع أسئلة بابل شيت تمهيدية"
+        }
+      ]
     }
   ],
   "exams": [
@@ -136,75 +213,63 @@
           "id": 1,
           "questionText": "عنصر سبق الإصرار في جريمة القتل العمد يعتبر من الظروف المشددة التي تتصف بأنها:",
           "options": [
-            "ظرف شخصي يتعلق بنفسية الجاني وهدوء باله وتفكيره المتروي",
-            "ظرف عيني يتعلق بمكان وزمان ارتكاب الجريمة",
-            "ركن من أركان الركن المادي للجريمة",
-            "مانع من موانع المسؤولية الجنائية"
+            "ظرف عيني يتعلق بماديات الجريمة ويسري على جميع المساهمين",
+            "ظرف شخصي نفسي يقتصر أثره المشدد على من توافر لديه فقط",
+            "عنصر روتيني لا يغير من وصف العقوبة المقررة",
+            "عذر قانوني مخفف للعقوبة بحسب تقدير القاضي"
           ],
-          "correctOptionIndex": 0,
-          "explanation": "سبق الإصرار ظرف نفسي شخصي يقوم على التفكير الهادئ المتروي قبل الإقدام على ارتكاب الجريمة."
+          "correctOptionIndex": 1,
+          "explanation": "سبق الإصرار حالة نفسية تقوم في نفس الجاني وتتميز بالهدوء والتروي، ولذلك هو ظرف شخصي لا يمتد لغيره من المساهمين إلا إذا علموا به وفقاً للمادة 39 عقوبات."
         },
         {
           "id": 2,
-          "questionText": "ما هو الركن الأساسي الذي يميز جريمة النصب عن جريمة السرقة؟",
+          "questionText": "الفرق الجوهري بين جريمة السرقة وجريمة النصب يكمن في:",
           "options": [
-            "اختلاس الشيء خلسة بغير علم المجني عليه",
-            "استعمال طرق احتيالية تدفع المجني عليه لتسليم ماله برضاه المعيب",
-            "استعمال الإكراه المادي ضد المجني عليه في الطريق العام",
-            "كون الشيء المسروق عقاراً مسجلاً بالشهر العقاري"
+            "أن السرقة تقع على عقار بينما النصب يقع على منقول فقط",
+            "أن السرقة تقوم على الاختلاس دون رضا المجني عليه، بينما النصب يتم فيه تسليم المال برضا معيب نتيجة طرق احتيالية",
+            "أن عقوبة النصب دائماً أشد من عقوبة السرقة بالإكراه",
+            "أن النصب لا يتطلب قصد الاستيلاء على مال الغير"
           ],
           "correctOptionIndex": 1,
-          "explanation": "في النصب يسلم المجني عليه المال بإرادته نتيجة انخداعه بالطرق الاحتيالية، بينما السرقة تقوم على الاختلاس دون رضا."
+          "explanation": "في السرقة ينتزع الجاني المال دون رضاء المجني عليه (اختلاس)، أما في النصب فيقوم المجني عليه بتسليم المال بنفسه ولكن بناء على خداع وتدليس من الجاني."
         },
         {
           "id": 3,
-          "questionText": "في جريمة خيانة الأمانة، يشترط لقيامها أن يكون تسليم المال قد تم بموجب:",
+          "questionText": "إذا قام الجاني بتوجيه ضربة واحدة للمجني عليه بعصا خفيفة قاصداً إيذاءه فقط فحدث نزيف داخلي غير متوقع أودى بحياته، فإن الجريمة توصف بأنها:",
           "options": [
-            "أي تصرف مدني ناقل للملكية كالبيع أو الهبة",
-            "أحد عقود الأمانة الواردة حصراً في المادة 341 من قانون العقوبات",
-            "اتفاق شفوي غير مكتوب بين الخصوم",
-            "حكم قضائي نهائي بالحبس مع الشغل"
+            "قتل عمد مع سبق الإصرار والترصد",
+            "ضرب أفضى إلى موت (المادة 236 عقوبات)",
+            "قتل خطأ ناتج عن إهمال ورعونة",
+            "جنحة مشاجرة دون عقاب جنائي"
           ],
           "correctOptionIndex": 1,
-          "explanation": "نصت المادة 341 عقوبات على عقود الأمانة حصراً: الوديعة، الإجارة، عارية الاستعمال، الرهن، الوكالة، والعمل."
-        },
-        {
-          "id": 4,
-          "questionText": "إذا تصالح الجاني مع المجني عليه في جريمة السرقة البسيطة:",
-          "options": [
-            "تنقضي الدعوى الجنائية بقوة القانون فوراً كجرائم الشكوى",
-            "لا يترتب على الصلح انقضاء الدعوى الجنائية لأن السرقة تمس الحق العام",
-            "يسقط حق النيابة العامة في الطعن بالنقض",
-            "تتحول الجريمة تلقائياً إلى مخالفة مرورية"
-          ],
-          "correctOptionIndex": 1,
-          "explanation": "السرقة ليست من جرائم الشكوى التي يجوز فيها الصلح المنقضي للدعوى، ولكن للمحكمة أن تعتبره ظرفاً مخففاً."
+          "explanation": "جريمة الضرب المفضي إلى موت تقوم متى توافر قصد المساس بسلامة الجسد دون قصد إزهاق الروح، ولكن النتيجة الوفاة تحققت كأثر مباشر للفعل."
         }
       ]
     },
     {
-      "id": "exam_civil_obl_1",
+      "id": "exam_civil_sources_1",
       "subjectId": "y2_s1_sub2",
-      "title": "اختبار منتصف الفصل: مصادر الالتزام والعقد والمسؤولية",
-      "durationMinutes": 15,
+      "title": "اختبار بابل شيت: مصادر الالتزام والمسؤولية المدنية",
+      "durationMinutes": 25,
       "questions": [
         {
           "id": 1,
-          "questionText": "إذا أبرم العقد تحت وطأة الإكراه المادي أو المعنوي، فإن حكم العقد يكون:",
+          "questionText": "التعاقد بين غائبين في القانون المدني المصري يعتبر قد تم في الزمان والمكان اللذين:",
           "options": [
-            "باطلاً بطلاناً مطلقاً لا تلحقه الإجازة",
-            "قابلاً للإبطال لمصلحة المتعاقد المكره (بطلان نسبي)",
-            "صحيحاً ونافذاً في حق الطرفين دون خيار الفسخ",
-            "منفسخاً بقوة القانون دون حاجة لرفع دعوى"
+            "صدر فيهما الإيجاب من الموجب",
+            "أرسل فيهما القابل خطابه بالبريد",
+            "يعلم فيهما الموجب بالقبول ما لم يوجد اتفاق أو نص يقضي بغير ذلك",
+            "تسجل فيهما الدعوى أمام المحكمة"
           ],
-          "correctOptionIndex": 1,
-          "explanation": "الإكراه عيب من عيوب الرضا يجعل العقد قابلاً للإبطال وفق المادة 127 من القانون المدني المصري."
+          "correctOptionIndex": 2,
+          "explanation": "أخذ المشرع المصري بنظرية العلم بالقبول، حيث يفترض علم الموجب بالقبول في الزمان والمكان اللذين وصل إليه فيهما القبول طبقاً لنص المادة 97 مدني."
         },
         {
           "id": 2,
-          "questionText": "تنص المادة 163 من القانون المدني المصري على أن:",
+          "questionText": "القاعدة الذهبية المنصوص عليها في المادة 163 من القانون المدني تنص على أن:",
           "options": [
-            "العقد شريعة المتعاقدين فلا يجوز نقضه إلا باتفاق الطرفين",
+            "العقد شريعة المتعاقدين فلا يجوز نقضه إلا باتفاقهما",
             "كل خطأ سبب ضرراً للغير يلزم من ارتكبه بالتعويض",
             "الالتزام الطبيعي لا يجوز إجبار المدين على الوفاء به",
             "المالكية للعين العقارية تثبت بمجرد وضع اليد"
@@ -231,7 +296,7 @@
     {
       "id": "notif_1",
       "title": "نزول محاضرة جديدة: عقوبات القسم الخاص",
-      "body": "تم إضافة المحاضرة الثانية في قانون العقوبات للدكتور مصطفى الشريف مع بنك أسئلة تدريبي.",
+      "body": "تم إضافة المحاضرة الثانية في قانون العقوبات للدكتور مصطفى الشريف مع بنك أسئلة تدريبي والمرفقات الشارحة.",
       "date": "اليوم • 10:30 ص",
       "isUrgent": true,
       "isRead": false
@@ -239,7 +304,7 @@
     {
       "id": "notif_2",
       "title": "فتح بنك الأسئلة والاختبارات لطلاب الفرقة الثانية",
-      "body": "تم تحديث اختبارات مصادر الالتزام بنظام البابل شيت الحديث لجميع الشعب.",
+      "body": "تم تحديث اختبارات مصادر الالتزام بنظام البابل شيت الحديث لجميع الشعب مع ملخصات PDF.",
       "date": "أمس • 04:15 م",
       "isUrgent": false,
       "isRead": false
