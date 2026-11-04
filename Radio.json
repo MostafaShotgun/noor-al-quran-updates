@@ -2,6 +2,10 @@
 "Radio": {
     "enabled": true,
     "maintenance": false,
+    "MessageAR": "التطبيق تحت الصيانة الأن.",
+    "MessageEN": "The application is currently under maintenance.",
+    "ShowReloadButton": false,
+    "TimeToOpen": "D5_11_2026T03:00AM",
     "stations": [
       {
         "ar": "تلاوة الشيخ إبراهيم الأخضر",
