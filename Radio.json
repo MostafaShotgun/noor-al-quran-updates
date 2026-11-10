@@ -4,7 +4,7 @@
     "maintenance": false,
     "MessageAR": "التطبيق تحت الصيانة الأن.",
     "MessageEN": "The application is currently under maintenance.",
-    "ShowReloadButton": false,
+    "ShowReloadButton": true,
     "TimeToOpen": "D5_11_2026T03:00AM",
     "stations": [
       {
