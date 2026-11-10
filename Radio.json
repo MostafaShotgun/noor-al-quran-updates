@@ -2,12 +2,15 @@
 "Radio": {
     "enabled": true,
     "maintenance": false,
-    "showMaintenanceMessage": true,
+    
     "showReloadButton": true,
     "showSplashScreen": true,
     "SplashScreenDuration": "3",
+    
     "MessageAR": "نعتذر عن الإزعاج",
     "MessageEN": "We Apologize for the Inconvenience",
+
+    "showMaintenanceMessage": true,
     "MaintenanceTitleAR": "التطبيق تحت الصيانة الأن.",
     "MaintenanceTitleEN": "The application is currently under maintenance.",
     
