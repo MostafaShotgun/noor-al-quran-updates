@@ -1,12 +1,27 @@
 {
 "Radio": {
-    "enabled": false,
+    "enabled": true,
     "maintenance": false,
-    "MessageAR": "التطبيق تحت الصيانة الأن.",
-    "MessageEN": "The application is currently under maintenance.",
-    "ShowReloadButton": true,
+    "showMaintenanceMessage": true,
+    "showReloadButton": true,
+    "showSplashScreen": true,
     "SplashScreenDuration": "3",
-    "TimeToOpen": "11_11_2026T03:00AM",
+    "MessageAR": "نعتذر عن الإزعاج",
+    "MessageEN": "We Apologize for the Inconvenience",
+    "MaintenanceTitleAR": "التطبيق تحت الصيانة الأن.",
+    "MaintenanceTitleEN": "The application is currently under maintenance.",
+    
+    "forceUpdate": false,
+    "LastVersion":"1.0.0",
+    "MinVersion":"1.0.0",
+    "ShowUpdateButton": true,
+    "DirectLinkBool": false,
+    "UpdateLink": "ه",
+    "UpdateMessageAR": "يرجى تحديث التطبيق إلى أحدث إصدار.",
+    "UpdateMessageEN": "Please update the application to the latest version.",
+
+    "ShowTimeIFnotenabled": false,
+    "TimeToOpen": "11_11_2026, 15:00:00 (Africa/Cairo)",
     "stations": [
       {
         "ar": "تلاوة الشيخ إبراهيم الأخضر",
