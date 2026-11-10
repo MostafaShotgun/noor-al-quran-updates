@@ -1,7 +1,7 @@
 {
 "Radio": {
-    "enabled": false,
-    "maintenance": false,
+    "enabled": true,
+    "maintenance": true,
     "MessageAR": "التطبيق تحت الصيانة الأن.",
     "MessageEN": "The application is currently under maintenance.",
     "ShowReloadButton": true,
