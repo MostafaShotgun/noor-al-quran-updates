@@ -5,7 +5,8 @@
     "MessageAR": "التطبيق تحت الصيانة الأن.",
     "MessageEN": "The application is currently under maintenance.",
     "ShowReloadButton": true,
-    "TimeToOpen": "D5_11_2026T03:00AM",
+    "SplashScreenDuration": "3",
+    "TimeToOpen": "11_11_2026T03:00AM",
     "stations": [
       {
         "ar": "تلاوة الشيخ إبراهيم الأخضر",
