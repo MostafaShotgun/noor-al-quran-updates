@@ -1,7 +1,7 @@
 {
 "Radio": {
     "enabled": true,
-    "maintenance": true,
+    "maintenance": false,
     
     "showReloadButton": true,
     "showMaintenanceMessage": true,
