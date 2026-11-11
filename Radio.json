@@ -20,9 +20,9 @@
     "MinVersionCode":"1",
     "MinVersion":"1.0.0",
     "ShowUpdateButton": true,
-    "DirectLinkBool": false,
+    "DirectLinkBool": true,
     "ShowUpdateMessages": true,
-    "UpdateLink": "ه",
+    "UpdateLink": "https://github.com/MostafaShotgun/noor-al-quran-updates/releases/download/v1.0.0.4/Noor.Al.Quran.apk",
     "UpdateMessageAR": "يرجى تحديث التطبيق إلى أحدث إصدار.",
     "UpdateMessageEN": "Please update the application to the latest version.",
 
