@@ -1,11 +1,11 @@
 {
 "Radio": {
-    "enabled": false,
-    "maintenance": false,
+    "enabled": true,
+    "maintenance": true,
     
-    "showReloadButton": false,
-    "showMaintenanceMessage": false,
-    "ShowTimeIFnotenabled": true,
+    "showReloadButton": true,
+    "showMaintenanceMessage": true,
+    "ShowTimeIFnotenabled": false,
     "showSplashScreen": true,
     "SplashScreenDuration": "3",
     
