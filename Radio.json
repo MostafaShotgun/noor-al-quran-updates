@@ -3,14 +3,15 @@
     "enabled": false,
     "maintenance": false,
     
-    "showReloadButton": true,
+    "showReloadButton": false,
+    "showMaintenanceMessage": false,
+    "ShowTimeIFnotenabled": true,
     "showSplashScreen": true,
     "SplashScreenDuration": "3",
     
     "MessageAR": "نعتذر عن الإزعاج",
     "MessageEN": "We Apologize for the Inconvenience",
 
-    "showMaintenanceMessage": true,
     "MaintenanceTitleAR": "التطبيق تحت الصيانة الأن.",
     "MaintenanceTitleEN": "The application is currently under maintenance.",
     
@@ -23,7 +24,6 @@
     "UpdateMessageAR": "يرجى تحديث التطبيق إلى أحدث إصدار.",
     "UpdateMessageEN": "Please update the application to the latest version.",
 
-    "ShowTimeIFnotenabled": false,
     "TimeToOpen": "11_11_2026, 15:00:00 (Africa/Cairo)",
     "stations": [
       {
