@@ -15,7 +15,7 @@
     "MaintenanceTitleAR": "التطبيق تحت الصيانة الأن.",
     "MaintenanceTitleEN": "The application is currently under maintenance.",
     
-    "forceUpdate": false,
+    "forceUpdate": "1",
     "LastVersionCode":"1",
     "LastVersion":"1.0.0",
     "MinVersionCode":"1",
